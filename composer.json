@@ -1,5 +1,5 @@
 {
-    "name": "liuggio/fastest",
+    "name": "ezsystems/fastest",
     "description": "Simple parallel testing execution... with some goodies for functional tests.",
     "license": "MIT",
     "authors": [
@@ -8,6 +8,9 @@
             "email": "liuggio@gmail.com"
         }
     ],
+    "replace": {
+        "liuggio/fastest": "*"
+    },
     "require": {
         "php": "^7.2",
         "symfony/console": "^3.4 || ^4.2 || ^5.0",
